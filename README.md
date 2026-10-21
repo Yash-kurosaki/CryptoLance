@@ -114,10 +114,3 @@ Tests use mocked Prisma + Solana — no real DB or network needed.
 ```
 OPEN → FUNDED → IN_PROGRESS → COMPLETED
 ```
-
-## ⚠️ Hackathon Disclaimer
-
-This is a **demo implementation**. In production:
-- Replace keypair-based escrow with an Anchor smart contract (PDA)
-- Add proper encryption for any stored keys
-- Add rate limiting, authentication middleware, and input sanitization
