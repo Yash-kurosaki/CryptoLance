@@ -1,0 +1,18 @@
+cat >> .gitignore <<'EOF'
+
+# Dependencies
+node_modules/
+
+# Next.js build and cache
+.next/
+**/.next/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+EOF
